@@ -10,6 +10,8 @@ What I did for setup:
 6. `uv venv`
 7. `uv pip install "transformers[torch]"`
 8. `uv pip install "pypdf"`
+9. `uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121`
+10. `uv pip install datasets`
 
 To run program:
 `./.venv\Scripts\activate` to activate environment
