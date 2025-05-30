@@ -31,3 +31,28 @@ outputs/
 llama.cpp/build/
 llama.cpp/bin/
 llama.cpp/*.o
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+ENV/
+
+# Model files
+models/
+*.gguf
+
+# Output
+outputs/
+*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# llama.cpp (if copied manually)
+llama.cpp/
+llama.cpp/build/
