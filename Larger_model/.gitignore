@@ -1,0 +1,33 @@
+---
+
+### ✅ `Larger_model/.gitignore`
+
+```gitignore
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment
+.venv/
+env/
+ENV/
+
+# Model files (too large for git)
+models/
+*.gguf
+
+# Output files
+outputs/
+*.txt
+
+# System files
+.DS_Store
+
+# Jupyter/IPython files
+.ipynb_checkpoints/
+
+# llama.cpp build artifacts (optional)
+llama.cpp/build/
+llama.cpp/bin/
+llama.cpp/*.o
